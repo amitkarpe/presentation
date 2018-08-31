@@ -1,7 +1,11 @@
 # Ansible AWX
 
 SOLVE IT. AUTOMATE IT. SHARE IT.
+
+[//]: # (This may be the most platform independent comment)
+<!---
 #![Ansible](https://upload.wikimedia.org/wikipedia/commons/2/24/Ansible_logo.svg)
+-->
 ---
 
 ```bash
@@ -17,7 +21,7 @@ echo "uptime" >> ~/.bash_profile
 @[3-3](Teardown the cluster)
 @[4-5](Provision the cluster with single node)
 ---
-```
+```js
 package main
 import "fmt"
 func main() {
