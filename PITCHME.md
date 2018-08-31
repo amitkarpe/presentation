@@ -1,49 +1,17 @@
-# Ansible AWX - Internal Lab
+# Ansible AWX
 
-To automate jobs, tasks, projects for infrastucure.
-
+SOLVE IT. AUTOMATE IT. SHARE IT.
+![Ansible](https://upload.wikimedia.org/wikipedia/commons/2/24/Ansible_logo.svg)
 ---
-
 ### Sample Code
-
 - Linux
 - Install nginx
 - RedHat Vs Debian
 ---
-
-![Ansible](https://upload.wikimedia.org/wikipedia/commons/2/24/Ansible_logo.svg)
----
-## For RedHat
-
-+++
-
-## Yum or RPM
-
----
-
-## For Debian
-
-+++
-
-## apt or dpkg
-
----
-
 @title[Sample Code]
 
-All code appearing in this presentation   
-comes from GitHub GISTS.
 
-<br>
-
-<span style="color:#e49436">---?gist=gist_id</span>
-
-<br>
-
-Using this simple slide delimiter syntax.   
-And rendered <span style="color:#e49436"><i>beautifully</i></span> by GitPitch.
-
----?gist=onetapbeyond/42c2d7b97b1abafd87eac6f3d98bad9b&lang=Bash&title=GIST:Bash
+---?gist=amitkarpe/42c2d7b97b1abafd87eac6f3d98bad9b&lang=Bash&title=GIST:Bash
 @[1:2] Set the host name and IP address
 @[2:3] teardown the cluster
 @[3:5] provision the cluster with single node
