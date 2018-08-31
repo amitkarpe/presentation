@@ -12,17 +12,6 @@ echo "uptime" >> ~/.bash_profile
 ```
 
 ---
-#### posh
-```posh
-foo@bar:~$ whoami
-foo
-ami@linux# root
-user
-# whoami
-root
-```
-
----
 #### console
 ```console
 foo@bar:~$ whoami
@@ -31,4 +20,18 @@ ami@linux# root
 user
 # whoami
 root
+amit@host :> untime
+ 12 3 4 5
+```
+---
+#### ShellSession
+```console
+foo@bar:~$ whoami
+foo
+ami@linux# root
+user
+# whoami
+root
+amit@host :> untime
+ 12 3 4 5
 ```
