@@ -9,31 +9,27 @@ To automate jobs, tasks, projects for infrastucure.
 - Linux
 - Install nginx
 - RedHat Vs Debian
-
-
-
 ---
 
-![Flux Explained](https://facebook.github.io/flux/img/flux-simple-f8-diagram-explained-1300w.png)
-
+![Ansible](https://upload.wikimedia.org/wikipedia/commons/2/24/Ansible_logo.svg)
 ---
-## Hello!
+## For RedHat
 
 +++
 
-## Hola!
+## Yum or RPM
 
 ---
 
-## Goodbye!
+## For Debian
 
 +++
 
-## Adiós!
+## apt or dpkg
 
 ---
 
-@title[GIST Delimiter]
+@title[Sample Code]
 
 All code appearing in this presentation   
 comes from GitHub GISTS.
@@ -46,6 +42,11 @@ comes from GitHub GISTS.
 
 Using this simple slide delimiter syntax.   
 And rendered <span style="color:#e49436"><i>beautifully</i></span> by GitPitch.
+
+---?gist=onetapbeyond/42c2d7b97b1abafd87eac6f3d98bad9b&lang=Bash&title=GIST:Bash
+@[1:2] Set the host name and IP address
+@[2:3] teardown the cluster
+@[3:5] provision the cluster with single node
 
 ---?gist=onetapbeyond/494e0fecaf0d6a2aa2acadfb8eb9d6e8&lang=Scala&title=GIST: Scala Snippet
 
