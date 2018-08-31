@@ -6,7 +6,6 @@ SOLVE IT. AUTOMATE IT. SHARE IT.
 #### Sample Code for Bash
 ```bash
 #!/bin/bash
-# Install all packages
 hostname
 yum install vim
 echo "uptime" >> ~/.bash_profile
@@ -14,6 +13,15 @@ echo "uptime" >> ~/.bash_profile
 
 ---
 ```console
+foo@bar:~$ whoami
+foo
+ami@linux# root
+user
+# whoami
+root
+```
+---
+```posh
 foo@bar:~$ whoami
 foo
 ami@linux# root
