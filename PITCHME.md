@@ -5,7 +5,7 @@ SOLVE IT. AUTOMATE IT. SHARE IT.
 [//]: # (This may be the most platform independent comment)
 [//]: #(#![Ansible](https://upload.wikimedia.org/wikipedia/commons/2/24/Ansible_logo.svg)
 ---
-```shell
+```bash
 #!/bin/bash
 # Install all packages
 hostname
@@ -16,7 +16,8 @@ echo "uptime" >> ~/.bash_profile
 @[1-2](Set the host name and IP address)
 @[3-3](Teardown the cluster)
 @[4-5](Provision the cluster with single node)
---
+
+---
 ```javascript
 var s = "JavaScript syntax highlighting";
 alert(s);
@@ -31,7 +32,7 @@ func main() {
 ```
 @[1]
 @[3]
-@[5-7]
+@[3-5]
 ---
 ```
 from time import localtime
