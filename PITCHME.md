@@ -14,22 +14,16 @@ yum install vim tmux nano unzip wget git net-tools bind-utils yum-utils iptables
 echo "uptime" >> ~/.bash_profile
 ```
 ---
-```shell
-$ echo $EDITOR
-vim
-# uname
-$ git checkout master
-Switched to branch 'master'
-Your branch is up-to-date with 'origin/master'.
-$ git push
-Everything up-to-date
-$ echo 'All
-> done!'
-All
-done!
+```yaml
+---
+# comment
+string_1: "Bar"
+keywords_in_yaml:
+  - true
+  - false
 ```
 ---
-#### Sample Code
-- Linux
-- Install nginx
-- RedHat Vs Debian
+```console
+foo@bar:~$ whoami
+foo
+```
