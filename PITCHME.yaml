@@ -12,9 +12,9 @@ transition : none
 published : true
 
 # Plugins
-charts : true
-mathjax : TeX-AMS_HTML-full
+#charts : true
+#mathjax : TeX-AMS_HTML-full
 
 # Code
 code-line-numbers : true
-highlight : monokai
+#highlight : monokai

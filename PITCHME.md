@@ -34,21 +34,18 @@ func main() {
 @[3]
 @[3-5]
 ---
-```python
-from time import localtime
-
-activities = {8: 'Sleeping', 9: 'Commuting', 17: 'Working',
-              18: 'Commuting', 20: 'Eating', 22: 'Resting' }
-
-time_now = localtime()
-hour = time_now.tm_hour
-
-for activity_time in sorted(activities.keys()):
-    if hour < activity_time:
-        print activities[activity_time]
-        break
-else:
-    print 'Unknown, AFK or sleeping!'
+```Shell Session
+$ echo $EDITOR
+vim
+$ git checkout master
+Switched to branch 'master'
+Your branch is up-to-date with 'origin/master'.
+$ git push
+Everything up-to-date
+$ echo 'All
+> done!'
+All
+done!
 ```
 ---
 ### Sample Code
