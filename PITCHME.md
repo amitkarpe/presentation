@@ -5,6 +5,7 @@ SOLVE IT. AUTOMATE IT. SHARE IT.
 [//]: # (This may be the most platform independent comment)
 [//]: #(#![Ansible](https://upload.wikimedia.org/wikipedia/commons/2/24/Ansible_logo.svg)
 ---
+### Sample Code for Bash
 ```bash
 #!/bin/bash
 # Install all packages
@@ -13,17 +14,16 @@ yum install vim tmux nano unzip wget git net-tools bind-utils yum-utils iptables
 echo "uptime" >> ~/.bash_profile
 ```
 ---?gist=amitkarpe/42c2d7b97b1abafd87eac6f3d98bad9b&lang=Bash&title=GIST:Bash
+### Sample Code for Bash from GIST
 @[1-2](Set the host name and IP address)
 @[3-3](Teardown the cluster)
 @[4-5](Provision the cluster with single node)
 
 ---
+### Sample Code for javascript
 ```javascript
 var s = "JavaScript syntax highlighting";
 alert(s);
-```
----
-```js
 package main
 import "fmt"
 func main() {
@@ -34,7 +34,7 @@ func main() {
 @[3]
 @[3-5]
 ---
-```
+```python
 from time import localtime
 
 activities = {8: 'Sleeping', 9: 'Commuting', 17: 'Working',
