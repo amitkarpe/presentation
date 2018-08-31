@@ -12,7 +12,8 @@ echo "uptime" >> ~/.bash_profile
 ```
 
 ---
-```console
+#### posh
+```posh
 foo@bar:~$ whoami
 foo
 ami@linux# root
@@ -20,8 +21,10 @@ user
 # whoami
 root
 ```
+
 ---
-```posh
+#### console
+```console
 foo@bar:~$ whoami
 foo
 ami@linux# root
