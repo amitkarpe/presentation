@@ -8,6 +8,7 @@ To automate jobs, tasks, projects for infrastucure.
 
 - Linux
 - Install nginx
+- RedHat Vs Debian
 
 
 ---
