@@ -14,9 +14,10 @@ yum install vim tmux nano unzip wget git net-tools bind-utils yum-utils iptables
 echo "uptime" >> ~/.bash_profile
 ```
 ---
-```Shell Session
+```shell
 $ echo $EDITOR
 vim
+# uname
 $ git checkout master
 Switched to branch 'master'
 Your branch is up-to-date with 'origin/master'.
